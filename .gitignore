@@ -1,0 +1,61 @@
+# mikroC PRO for PIC specific
+*/*.asm
+*/*.cp
+*/*.dbg
+*/*.dct
+*/*.dlt
+*/*.log
+*/*.lst
+*/*.mcl
+*/*.dic
+*/*.txt
+*/*.cof
+*/*.mcp
+*/*.mcs
+*/*.mcw
+*/*.obj
+
+*/*/*.asm
+*/*/*.cp
+*/*/*.mcl
+
+# Proteus specific
+simulation/*.workspace
+simulation/*.BMP
+simulation/*.DBK
+simulation/*.DSN.*
+simulation/*.pdsbak
+simulation/*.pdsprj.DESKTOP-*
+simulation/*.pdsprj.*.workspace
+simulation/Project*/
+
+# Windows specific
+Thumbs.db
+*.exe
+Desktop.ini
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# IDE specific
+.vscode/
+.idea/
+
+# Build directories
+build/
+debug/
+release/
+dist/
+
+# Backup files
+*.bak
+*.backup
+*~
