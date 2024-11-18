@@ -1,0 +1,73 @@
+# img/ - images
+img/*.bmp
+
+# exemples/ - exemples
+exemples/
+
+# src/ - mikroC PRO for PIC specific
+src/*.asm
+src/*.bmk
+src/*.brk
+src/*.cp
+src/*.dbg
+src/*.dct
+src/*.dlt
+src/*.log
+src/*.lst
+src/*.mcl
+src/*.dic
+src/*.txt
+src/*.cof
+src/*.mcp
+src/*.mcs
+src/*.mcw
+src/*.obj
+src/*.obj
+src/*.ini
+
+# /src/bibis/ - mikroC PRO for PIC specific
+src/bibis/*.asm
+src/bibis/*.cp
+src/bibis/*.mcl
+src/bibis/*.ini
+
+# /simulation/ - Proteus specific
+simulation/*.workspace
+simulation/*.BMP
+simulation/*.DBK
+simulation/*.DSN.*
+simulation/*.pdsbak
+simulation/*.pdsprj.DESKTOP-*
+simulation/*.pdsprj.*.workspace
+simulation/Project*/
+
+# Windows specific
+Thumbs.db
+*.exe
+Desktop.ini
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# IDE specific
+.vscode/
+.idea/
+
+# Build directories
+build/
+debug/
+release/
+dist/
+
+# Backup files
+*.bak
+*.backup
+*~
